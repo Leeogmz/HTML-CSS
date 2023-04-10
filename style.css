@@ -49,23 +49,22 @@ body {
     justify-content: space-between;
 }
 
-.apresentacao__links__links {
+.icon {
     text-decoration: none;
     background-color: #f2e8e1;
     color: black;
     width: 280px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
-    font-weight: 600;
     padding: 21.5px 0;
-    font-family: 'Montserrat', sans-serif;
+    width: 52px;
+    height:52px;
 }
 
-.image__perfil {
-    width: 400px;
+.perfil{
+    width: 300px;
     margin-bottom: 12%;
-    height:500px;
+    height:600px;
     border-radius: 50px;
     
 }
