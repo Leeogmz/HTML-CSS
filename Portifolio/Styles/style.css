@@ -1,12 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-:root  {
+  :root  {
 
     --cor-primaria: #000000;
 
     --cor-secundaria: #F6F6F6;
     
-    --cor-terciaria: #E09145;
+    --cor-terciaria: #1034A6;
 
 }
 
@@ -19,18 +19,21 @@ body {
     /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    color:var(--cor-secundaria)
 }
 
 .cabecalho {
 
-    padding: 2% 0 0 15% ;
+    padding: 1% 0 0 15% ;
+   
 
 }
 
 .cabecalho__menu {
     display: flex;
     gap: 80px;
+    
+
 }
 
 .cabecalho__menu__link {
@@ -39,6 +42,9 @@ body {
     font-weight: 600px;
     font-size: 24px;
     color: var(--cor-terciaria); 
+    text-decoration: none;
+    padding-bottom: 25px;
+
 }
 
 .apresentacao{ 
@@ -103,11 +109,12 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);    
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor-terciaria);
 }
 
 .apresentacao__links__links:hover {
 
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
 
     
 
