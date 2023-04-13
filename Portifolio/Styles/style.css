@@ -51,6 +51,25 @@ body {
     gap: 82px;
 }
 
+.apresentacao__curriculo{
+
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 82px;
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+
+}
+
+.curriculo__experiencias{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  
+}
+
 .apresentacao__conteudo {
 
     width: 50%;
