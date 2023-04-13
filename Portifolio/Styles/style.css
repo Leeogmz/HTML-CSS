@@ -113,7 +113,6 @@ body {
 
 .image__perfil {
     width: 50%;
-    margin-bottom: 12%;
 }
 
 .icon{
@@ -150,6 +149,10 @@ body {
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .image__perfil {
+        width: 75%;
     }
 
     
