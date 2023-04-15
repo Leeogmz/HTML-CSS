@@ -1,3 +1,11 @@
+  :root {
+    --cor-background: #F1DEC9;
+    --cor-secundaria: #8D7B68;
+    --cor--terciaria: black;
+    --font-titulos: 'Krona One', sans-serif;
+    --font-textos:'Montserrat', sans-serif;
+  }
+  
   @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 
@@ -9,66 +17,106 @@
 }
 
 body {
-    height: 100vh;
-    box-sizing: border-box;   
-    background-color: #e3e3e3;
-    color:#9e8d7e;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    
-    
+    box-sizing: border-box;
+    background-color: var(--cor-background);
+    color: var(--cor-terciaria);
     
 }
 
-.apresentacao{ 
-    margin: 10% 15%;
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    padding: 0 10px;
+    gap: 50px;   
+
+}
+
+.cabecalho__icon{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: right;
+    flex-direction: row;
+    padding: 8px 400px;
+}
+
+
+.apresentacao{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1% 10%;
+    font-size: 1.5rem;
+    font-family: var(--font-textos);
+    
 }
 
 .conteudo {
-
-    width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.icon {
-    width: 56px;    
-    margin: 5%;
-}
+.titulos__botom {
 
-.icon__whatsapp {
-    width: 62px; 
-    margin: 5%;
-}
+    display: flex;
+    justify-content: center;
 
-.perfil {
-    width: 300px;
-    height:400px;
-    border-radius: 20px;
+
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    width: 40%;
     
+    font-family: var(--font-titulos);
+    font-size: 2.2rem;
+    padding: 1%;
+    color: var(--cor-background);
+
+
 }
 
 .logo{
-    margin: 10% 15%;
-    width: 300px;
-    height:150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    width: 5%;    
 }
 
-.titulos {
+.perfil{
+    
+    width: 25%;
+    border-radius: 100%;
+}
 
-    font-family: 'Krona One', sans-serif;
-    font-size: 36px;
-    color:#766d61;
+.icon {
+    width: 4%;
+}
+
+.cabecalho__icon__whatsapp {
+    width: 4.5%;
+}
+
+.icon__whatsapp {
+    width: 6%;
+
+}    
+
+.agendamento__botom {
+
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    width: 40%;
+    
+    font-family: var(--font-titulos);
+    font-size: 2.2rem;
+    padding: 1%;
+    color: var(--cor-background);
+    text-decoration: none;
+
+    gap: 20px;
+
 
 }
