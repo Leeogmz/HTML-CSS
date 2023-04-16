@@ -1,0 +1,46 @@
+:root{
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #C0C0C0 ;
+    --cor-background: #00030C;
+    --cor-botao: #167BF7 ;
+}
+
+
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-primaria);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__botao{
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: block;
+}
+
+.botao__secundario {
+    background-color: var(--cor-background);
+    border: 2px solid var(--cor-primaria);
+}
