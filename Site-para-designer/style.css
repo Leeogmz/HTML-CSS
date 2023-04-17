@@ -1,122 +1,96 @@
   :root {
-    --cor-background: #F1DEC9;
-    --cor-secundaria: #8D7B68;
-    --cor--terciaria: black;
-    --font-titulos: 'Krona One', sans-serif;
-    --font-textos:'Montserrat', sans-serif;
+      --cor-background: #F1DEC9;
+      --cor-secundaria: #8D7B68;
+      --cor--terciaria: black;
+      --font-titulos: 'Krona One', sans-serif;
+      --font-textos: 'Montserrat', sans-serif;
   }
-  
+
   @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 
 
-* {
+  * {
 
-    margin: 0;
-    padding: 0;
-}
+      margin: 0;
+      padding: 0;
+  }
 
-body {
-    box-sizing: border-box;
-    background-color: var(--cor-background);
-    color: var(--cor-terciaria);
-    
-}
+  body {
+      box-sizing: border-box;
+      background-color: var(--cor-background);
+      color: var(--cor-terciaria);
 
-.cabecalho {
-    background-color: var(--cor-secundaria);
-    padding: 0 10px;
-    gap: 50px;   
+  }
 
-}
+  .cabecalho {
+      background-color: var(--cor-secundaria);
+      padding: 0 10px;
+      gap: 50px;
 
-.cabecalho__icon{
-    display: flex;
-    justify-content: center;
-    text-align: right;
-    flex-direction: row;
-    padding: 8px 400px;
-}
+  }
 
 
-.apresentacao{
-    
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 1% 10%;
-    font-size: 1.5rem;
-    font-family: var(--font-textos);
-    
-}
+  .apresentacao {
 
-.conteudo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      padding: 1% 10%;
+      font-size: 1.5rem;
+      font-family: var(--font-textos);
 
-.titulos__botom {
+  }
 
-    display: flex;
-    justify-content: center;
+  .conteudo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
 
+  .titulos__botom {
 
-    background-color: var(--cor-secundaria);
-    border: 2px solid var(--cor-terciaria);
-    border-radius: 10px;
-    width: 40%;
-    
-    font-family: var(--font-titulos);
-    font-size: 2.2rem;
-    padding: 1%;
-    color: var(--cor-background);
+      display: flex;
+      justify-content: center;
 
 
-}
+      background-color: var(--cor-secundaria);
+      border: 2px solid var(--cor-terciaria);
+      border-radius: 10px;
+      width: 40%;
 
-.logo{
-    width: 5%;    
-}
+      font-family: var(--font-titulos);
+      font-size: 2.2rem;
+      padding: 1%;
+      color: var(--cor-background);
 
-.perfil{
-    
-    width: 25%;
-    border-radius: 100%;
-}
-
-.icon {
-    width: 4%;
-}
-
-.cabecalho__icon__whatsapp {
-    width: 4.5%;
-}
-
-.icon__whatsapp {
-    width: 6%;
-
-}    
-
-.agendamento__botom {
-
-    display: flex;
-    justify-content: center;
-
-    background-color: var(--cor-secundaria);
-    border: 2px solid var(--cor-terciaria);
-    border-radius: 10px;
-    width: 40%;
-    
-    font-family: var(--font-titulos);
-    font-size: 2.2rem;
-    padding: 1%;
-    color: var(--cor-background);
-    text-decoration: none;
-
-    gap: 20px;
+      text-decoration: none;
 
 
-}
+  }
+
+  .logo {
+      width: 10%;
+  }
+
+  
+
+  .perfil {
+      width: 25%;
+      border-radius: 100%;
+  }
+
+  .icon {
+      width: 4%;
+  }
+
+  .cabecalho__icon__whatsapp {
+      width: 4.5%;
+  }
+
+  .icon__whatsapp__white {
+      width: 8%;
+      margin-right: 1rem;
+  }
