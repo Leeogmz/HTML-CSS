@@ -1,16 +1,16 @@
   :root {
-      --cor-background: #F1DEC9;
-      --cor-secundaria: #8D7B68;
-      --cor--terciaria: black;
-      --font-titulos: 'Krona One', sans-serif;
-      --font-textos: 'Montserrat', sans-serif;
+      --cor-background: #1B1B1B;
+      --cor-secundaria: #8D7867;
+      --cor-terciaria: #2E2E2E;
+      --cor-background-logo: #D9D9D9;
+      --font: 'Poppins', sans-serif;
+    
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Poppins:wght@400;700&display=swap');
 
-
-
-  * {
+* {
 
       margin: 0;
       padding: 0;
@@ -19,78 +19,40 @@
   body {
       box-sizing: border-box;
       background-color: var(--cor-background);
-      color: var(--cor-terciaria);
-
-  }
-
-  .cabecalho {
-      background-color: var(--cor-secundaria);
-      padding: 0 10px;
-      gap: 50px;
+      font-family:var(--font);
+      font-size: 16px;
 
   }
 
 
-  .apresentacao {
-
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      padding: 1% 10%;
-      font-size: 1.5rem;
-      font-family: var(--font-textos);
+  .titulos {
+    color: var(--cor-secundaria);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10% 0 15% 5%;    
 
   }
 
-  .conteudo {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
+  .card__principal {
+    display: flex;
+    background-color: var(--cor-terciaria);
+    margin: 2rem 0.5rem;
+    border-radius: 1em;
+    justify-content: space-between;
+    gap: 5%;
   }
 
-  .titulos__botom {
 
-      display: flex;
-      justify-content: center;
-
-
-      background-color: var(--cor-secundaria);
-      border: 2px solid var(--cor-terciaria);
-      border-radius: 10px;
-      width: 40%;
-
-      font-family: var(--font-titulos);
-      font-size: 2.2rem;
-      padding: 1%;
-      color: var(--cor-background);
-
-      text-decoration: none;
-
-
+  .logo{
+    padding: 15% 35% 15% 15%;
+    margin: 45% 0 0 -5%;
+    width: 10rem;    
+    background-color: var(--cor-background-logo);
+    border-radius: 0 60px 60px 0;
+    
+    
   }
 
-  .logo {
-      width: 10%;
-  }
-
-  
-
-  .perfil {
-      width: 25%;
-      border-radius: 100%;
-  }
-
-  .icon {
-      width: 4%;
-  }
-
-  .cabecalho__icon__whatsapp {
-      width: 4.5%;
-  }
-
-  .icon__whatsapp__white {
-      width: 8%;
-      margin-right: 1rem;
+  .perfil{        
+    width: 12rem;
   }
