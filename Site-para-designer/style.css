@@ -48,11 +48,43 @@
     margin: 45% 0 0 -5%;
     width: 10rem;    
     background-color: var(--cor-background-logo);
-    border-radius: 0 60px 60px 0;
-    
+    border-radius: 0 60px 60px 0;   
     
   }
 
   .perfil{        
     width: 12rem;
+  }
+
+  .card_botoes {
+    display: flex;
+    flex-direction: column;      
+    border-radius: 1em;
+    justify-content: center;    
+    align-items: center;
+    gap: 10px; 
+    
+    
+  }
+
+  .botao{
+    background-color: var(--cor-background-logo);
+    width: 250px; 
+    padding: 10px;
+    border-radius: 60px; 
+    text-align: center; 
+
+      
+    
+  }
+
+  .botao_texto{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--cor-background);
+    text-decoration: none;
+  }
+
+  .icon{
+    width: 20px;
   }
